@@ -1,0 +1,162 @@
+html{
+    height: 100%;
+}
+
+
+
+
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    margin-top: 130px;
+    height: 100%;
+
+}
+.body-home{
+    background-image:url('images/front.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.body-staters{
+    margin-top: 130px;
+    background-image:url('images/Restaurant-logo.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*============================================HOME PAGE======================= =====================*/
+
+#home-logo-img{
+width: 200px;
+display: block;
+margin: auto;
+padding: 25px 10px 10px 10px;
+}
+
+/*========================================= HOME PAGE MENU==================================================*/
+.home-menu-item {
+    text-decoration: none;
+    text-transform: uppercase;
+
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    border: 5px solid black;
+
+    display:block;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 80%;
+}
+/*============================================HEADER============================================*/
+.header{
+    background-color: green;
+     width: 100%;
+     height: 130px;
+     top:0;
+
+     position: fixed;
+     overflow: hidden;
+     text-align: center;
+}
+
+.header i{
+    float: left;
+    padding: 70px 0px 0px 70px;
+    color:black;
+
+}
+
+.header img{ 
+    width: 150px;
+    padding-top: 14px;
+     padding-right: 20px;
+    
+    }
+    
+/*========================================= HOME PAGE MENU==================================================*/
+.staters-list a{
+    text-decoration: none;
+}
+.staters-list-items{
+    border: 5px solid black;
+    margin: 10px;
+}
+
+.staters-list-items h1{ 
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    padding-left: 10px;
+
+}
+.staters-list-items i{
+    float: right;
+    color:black;
+    padding-right: 10px ;
+   
+
+ 
+}
+.staters-list-item i{
+    width: 200%;
+    height: 25px;
+    margin : 12px 0;
+    float: center;
+   
+} 
+.staters-list-item {
+    width: 100%;
+    height: 25px;
+    margin : 12px 0;
+    border : 1px solid #929292;
+    color: black;
+} 
+
+
+.staters-list-items p{   
+    font-size: 15px;
+    font-style:italic;
+    color:black;
+    margin-top: -7px;
+    padding-left: 10px;
+
+
+    
+}
+/*********** FORM*************/ 
+input{
+    width: 100%;
+    height: 25px;
+    margin : 12px 0;
+    border : 1px solid #929292;
+}
+
+textarea{
+    width: 100%;
+    height :65px;
+    margin : 12px 0;
+    border : 1px solid #929292;
+}
+
+.button{
+    display : block;
+    width: 100%;
+    background-color: forestgreen;
+    text-decoration : none;
+    text-align  : center;
+    color       : white;
+    font-size   : 16px;
+    font-weight : 600;
+    margin : 12px 0;
+    padding : 8px 0;
+}
